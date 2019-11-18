@@ -20,5 +20,6 @@ deploy:
     secure: "<encrypted-token>"
   file: 'gox'
   skip_cleanup: true
-  on:
-    tags
+  draft: true
+#  on:
+#    tags
